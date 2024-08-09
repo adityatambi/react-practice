@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Alert } from './Alert';
 import { AlertModuleCss } from './AlertModuleCss';
+import { AlertEmotionCss } from './AlertEmotionCss';
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
       <AlertModuleCss heading="Success" closable>
         Everything is awesome!!
       </AlertModuleCss>
+
+      <AlertEmotionCss heading="Success" closable>
+        Everything is stunning!!
+      </AlertEmotionCss>
     </div>
   );
 }
