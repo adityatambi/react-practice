@@ -4,6 +4,7 @@ import './App.css';
 import { Alert } from './Alert';
 import { AlertModuleCss } from './AlertModuleCss';
 import { AlertEmotionCss } from './AlertEmotionCss';
+import { AlertTailwindCss } from './AlertTailwindCss';
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
       <AlertEmotionCss heading="Success" closable>
         Everything is stunning!!
       </AlertEmotionCss>
+
+      <AlertTailwindCss heading="Success" closable>
+        this is also good!
+      </AlertTailwindCss>
     </div>
   );
 }
